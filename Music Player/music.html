@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="controls">
+            <button id="play-pause">Play</button>
+            <button id="shuffle">Shuffle</button>   
+            <button id="previousButton">Previous</button>
+            <button id="nextButton">Next</button>
+        </div>
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Search for a song">
+            <button id="search-button">Search</button>
+        </div>
+        <ul class="playlist">
+            <li data-title="Song 1" data-source="./static/songs/song1.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 1</li>
+            <li data-title="Song 2" data-source="./static/songs/song2.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 2</li>
+            <li data-title="Song 3" data-source="./static/songs/song3.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 3 </li>
+            <li data-title="Song 4" data-source="./static/songs/song4.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 4</li>
+            <li data-title="Song 5" data-source="./static/songs/song5.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 5</li>
+            <li data-title="Song 6" data-source="./static/songs/song6.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 6</li>
+            <li data-title="Song 7" data-source="./static/songs/song7.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 7</li>
+            <li data-title="Song 8" data-source="./static/songs/song8.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 8</li>
+            <li data-title="Song 9" data-source="./static/songs/song9.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 9</li>
+            <li data-title="Song 10" data-source="./static/songs/song10.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 10</li>
+            <li data-title="Song 11" data-source="./static/songs/song11.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 11</li>
+            <li data-title="Song 12" data-source="./static/songs/song12.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 12</li>
+            <li data-title="Song 13" data-source="./static/songs/song13.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 13 </li>
+            <li data-title="Song 14" data-source="./static/songs/song14.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 14</li>
+            <li data-title="Song 15" data-source="./static/songs/song15.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song 1 Image">
+          <p class="song-title">Song 15</li>
+            <li data-title="Song 16" data-source="./static/songs/song16.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 16</li>
+            <li data-title="Song 17" data-source="./static/songs/song17.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 17</li>
+            <li data-title="Song 18" data-source="./static/songs/song18.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 18</li>
+            <li data-title="Song 19" data-source="./static/songs/song19.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 19</li>
+            <li data-title="Song 10" data-source="./static/songs/song20.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 20</li>            
+            <li data-title="Song 21" data-source="./static/songs/song21.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 21</li>
+            <li data-title="Song 22" data-source="./static/songs/song22.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 22</li>
+            <li data-title="Song 23" data-source="./static/songs/song23.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 23 </li>
+            <li data-title="Song 24" data-source="./static/songs/song24.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 24</li>
+            <li data-title="Song 25" data-source="./static/songs/song25.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 25</li>
+            <li data-title="Song 26" data-source="./static/songs/song26.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 26</li>
+            <li data-title="Song 27" data-source="./static/songs/song27.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 27</li>
+            <li data-title="Song 28" data-source="./static/songs/song28.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 28</li>
+            <li data-title="Song 29" data-source="./static/songs/song29.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 29</li>
+            <li data-title="Song 30" data-source="./static/songs/song30.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 30</li> 
+            <li data-title="Song 31" data-source="./static/songs/song31.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 31</li>
+            <li data-title="Song 32" data-source="./static/songs/song32.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 32</li>
+            <li data-title="Song 33" data-source="./static/songs/song33.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 33 </li>
+            <li data-title="Song 34" data-source="./static/songs/song34.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 34</li>
+            <li data-title="Song 35" data-source="./static/songs/song35.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 35</li>
+            <li data-title="Song 36" data-source="./static/songs/song36.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 36</li>
+            <li data-title="Song 37" data-source="./static/songs/song37.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 37</li>
+            <li data-title="Song 38" data-source="./static/songs/song38.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 38</li>
+            <li data-title="Song 39" data-source="./static/songs/song39.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 39</li>
+            <li data-title="Song 40" data-source="./static/songs/song40.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 40</li>          
+            <li data-title="Song 41" data-source="./static/songs/song41.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 41</li>
+            <li data-title="Song 42" data-source="./static/songs/song42.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 42</li>
+            <li data-title="Song 43" data-source="./static/songs/song43.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 43 </li>
+            <li data-title="Song 44" data-source="./static/songs/song44.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 44</li>
+            <li data-title="Song 45" data-source="./static/songs/song45.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 45</li>
+            <li data-title="Song 46" data-source="./static/songs/song46.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 46</li>
+            <li data-title="Song 47" data-source="./static/songs/song47.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 47</li>
+            <li data-title="Song 48" data-source="./static/songs/song48.mp3">
+             <img class="song-image" src="./static/song.jpg" alt="Song Image">
+          <p class="song-title">Song 48</li>        
+        </ul>
+        <div class="song-title">
+        Now Playing: <span id="currentSong">None</span>
+        </div>
+    </div>
+    <audio id="audio-player" controls></audio>
+    <script src="script.js"></script>
+</body>
+</html>

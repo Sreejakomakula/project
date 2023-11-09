@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8d6d6; /* White background */
+}
+
+.music-player {
+    background: linear-gradient( #e9e996, #daebe3, #fde8d3, #f3c3b2, #cfd6c4, #7e9180);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(244, 240, 240);
+    padding: 15px;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+button {
+    background: linear-gradient(#caf0f8, #00b4d8); /* Blue button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background: linear-gradient(#2d388a, #00aeef); /* Darker blue on hover */
+}
+
+.search {
+    margin-bottom: 10px;
+}
+
+button#previousButton, button#nextButton {
+    background: linear-gradient( #caf0f8, #00b4d8);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: background-color 0.1s;
+}
+
+button#previousButton:hover, button#nextButton:hover {
+    background: linear-gradient(#2d388a, #00aeef); /* Darker blue on hover */
+}
+
+input[type="text"],
+button#search-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button#search-button {
+    background: linear-gradient(#caf0f8, #00b4d8);  /* Green button background */
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.1s;
+}
+
+button#search-button:hover {
+    background: linear-gradient(#2d388a, #00aeef); /* Darker green on hover */
+}
+
+#currentSong {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Update the playlist styles */
+.playlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid; /* Use CSS Grid for the layout */
+    grid-template-columns: repeat(8, 1fr); /* Create 8 columns */
+    grid-gap: 10px; /* Add gap between squares */
+}
+
+.playlist li {
+    padding: 10px; /* Adjust padding for squares */
+    border: 1px solid #ffffff;
+    background-color: #f0f7ee; /* Light gray background */
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+.playlist li:hover {
+    background-color: #c1d7ec; /* Light blue on hover */
+    color: #b09e9e;
+}
+
+.song-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.song-title {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
